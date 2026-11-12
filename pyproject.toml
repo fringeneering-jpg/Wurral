@@ -1,0 +1,24 @@
+﻿[build-system]
+requires = ["setuptools>=64.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wurral"
+version = "1.0.0"
+description = "Zero-parameter continuous-field 15-body Solar System propagator, planetary spin-lock, subatomic EOS, and deep-space telemetry audit engine."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Dual Licensed: GNU AGPLv3 / Fringeneering Commercial Telemetry License"}
+authors = [
+    {name = "Jaden John Allison (Fringeneering)", email = "fringeneering@gmail.com"}
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+]
+
+[project.optional-dependencies]
+spk = ["jplephem>=2.18"]
+
+[project.scripts]
+wurral = "wurral_cli:main"

@@ -1,0 +1,12 @@
+﻿__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.bsp
+jpl_prefit/
+dawn_4rocks_*.json
+*_REPORT.txt
