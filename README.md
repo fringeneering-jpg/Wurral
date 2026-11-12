@@ -26,5 +26,10 @@ Wurral is a deterministic, zero-fitted-parameter Solar System orbital propagator
     # 2. Full Live NASA SPK + Pre-Fit Spacecraft Telemetry Audit:
     python wurral_cli.py --all --bsp-dir "C:/Users/jaden/Downloads/PWC_Solar_Orbits" --prefit-dir "C:/Users/jaden/Downloads/PWC_Solar_Orbits/jpl_prefit"
 
+## Companion Near-Earth Engine - Jiba
+
+For VLEO/LEO/MEO/GEO satellite station-keeping, local Sun-Earth superposition dipole filtering (`alpha = 2.635`, `11.86 m` 7-day blind ILRS tracking), and wake-phase solar-sail/thruster scheduling, see the companion repository:
+* **Jiba:** https://github.com/fringeneering-jpg/Jiba
+
 ## Commercial Aerospace & Defense Licensing
 Closed-source flight software, commercial mega-constellation station-keeping, and Space Domain Awareness (SDA) deployments require a **Fringeneering Commercial Telemetry License**. See COMMERCIAL_LICENSE.md or contact fringeneering@gmail.com.
